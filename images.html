@@ -3,33 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Google Images</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
   <body>
     <nav class="top" id="top-images">
+        <a href="index.html"><img src="googleLogo.png"></a>
         <a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.co.uk/&ec=GAZAmgQ" id="sign-in">Sign In</a>
     </nav>
     <div id="form_container">
       <form method="get" action="https://images.google.com/images">
         <img src="googleImages.png">
         <input type="text" name="q">
-        <input type="submit" value="Google Search">
+        <div><input type="submit" name="btnK" value="Google Search">
+          <input type="submit" name="btnI" value="I'm feeling lucky"></div>
       </form>
     </div>
     <nav id="bottom">
-      <div id="country">Italia</div>
+      <div id="country">Italy</div>
       <div id="bottom-bar">
         <div>
-          <a href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://www.google.com/intl/it_it/ads/%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&ved=0ahUKEwi5kMnUwdmGAxXwgP0HHYbyDScQkdQCCCE&bl=MAqt&opi=89978449&usg=AOvVaw2qsATvxgH-n9AAPmIM66ar">Pubblicità</a>
-          <a href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://www.google.com/services/%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&ved=0ahUKEwi5kMnUwdmGAxXwgP0HHYbyDScQktQCCCI&bl=MAqt&opi=89978449&usg=AOvVaw2SJ4zwRVXKyZr53qG9dm4K">Soluzioni aziendali</a>
-          <a href="https://google.com/search/howsearchworks/?fg=1">Come funziona la Ricerca</a>
+          <a href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://www.google.com/intl/it_it/ads/%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&ved=0ahUKEwi5kMnUwdmGAxXwgP0HHYbyDScQkdQCCCE&bl=MAqt&opi=89978449&usg=AOvVaw2qsATvxgH-n9AAPmIM66ar">Sponsors</a>
+          <a href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://www.google.com/services/%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&ved=0ahUKEwi5kMnUwdmGAxXwgP0HHYbyDScQktQCCCI&bl=MAqt&opi=89978449&usg=AOvVaw2SJ4zwRVXKyZr53qG9dm4K">Business</a>
+          <a href="https://google.com/search/howsearchworks/?fg=1">How Search Works</a>
         </div>
         <div>
           <a href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://policies.google.com/privacy%3Fhl%3Dit%26fg%3D1&ved=0ahUKEwi5kMnUwdmGAxXwgP0HHYbyDScQ8awCCCQ&bl=MAqt&opi=89978449&usg=AOvVaw38Cqwp5EPvYV1R08jus__j">Privacy</a>
-          <a href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://policies.google.com/terms%3Fhl%3Dit%26fg%3D1&ved=0ahUKEwi5kMnUwdmGAxXwgP0HHYbyDScQ8qwCCCU&bl=MAqt&opi=89978449&usg=AOvVaw0fzMuWa-wGBwHPnMJBkeU8">Termini</a>
-          <a>Impostazioni</a>
+          <a href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://policies.google.com/terms%3Fhl%3Dit%26fg%3D1&ved=0ahUKEwi5kMnUwdmGAxXwgP0HHYbyDScQ8qwCCCU&bl=MAqt&opi=89978449&usg=AOvVaw0fzMuWa-wGBwHPnMJBkeU8">Terms</a>
+          <div class="dropup">
+            <button class="dropbtn">Settings</button>
+              <div class="dropup-content">
+                <a href="advancedSearch.html">Advanced search</a>
+              </div>
+          </div> 
         </div>
       </div>
     </nav>

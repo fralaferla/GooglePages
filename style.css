@@ -11,9 +11,7 @@ a>img{
   display:flex;
   justify-content: space-between;
 }
-#top-images{
-  justify-content: flex-end;
-}
+
 a{
   color:black;
   text-decoration: none;
