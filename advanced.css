@@ -1,0 +1,86 @@
+a>img{
+  max-height:40px;
+}
+.top{
+  margin:20px;
+  height:70px;
+  display:flex;
+  justify-content: space-between;
+}
+a{
+  color:black;
+  text-decoration: none;
+  padding:5px
+}
+#sign-in{
+  background-color: rgba(0, 89, 255, 0.811);
+  border-radius: 40%;
+  color:white;
+  padding:10px;
+  max-height:25px;
+}
+#sign-in:hover{
+  text-decoration: none;
+  box-shadow: 1px 1px rgba(0, 89, 255, 0.6);
+  cursor:pointer;
+}
+a:hover{
+  text-decoration: underline;
+}
+#advanced-search{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 530;
+  color:rgba(255, 0, 0, 0.69);
+  padding-left:30px;
+  font-size:1.5em;
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+#advanced-form{
+  width:80%;
+  margin-top: 30px;
+  height:250px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.grid{
+  display:grid;
+  grid-template-columns: 1fr 2.5fr 1fr;
+}
+.grid input{
+  height: 20px;
+}
+.label{
+  font-size:1em
+}
+.side{
+  padding-left:20px;
+  font-size:0.7em;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#grid-title{
+  font-size:1.1em;
+  
+  font-family: Arial, Helvetica, sans-serif;
+}
+#side-title{
+  font-size: 0.8em;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgba(0,0,0,0.5);
+}
+#submit-container{
+  text-align: right;
+}
+#submit{
+  height:30px;
+  background-color: rgba(0, 89, 255, 0.811);
+  border:none;
+  border-radius:2px;
+  color:white;
+}
+#submit:hover{
+  box-shadow: 1px 1px rgba(0, 89, 255, 0.6);
+  cursor:pointer;
+}
