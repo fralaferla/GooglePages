@@ -1,0 +1,2 @@
+### Just some basic workout with HTML and CSS
+There is a JS file but it's just for a dropup menu. Plus, I know in the two .css files there's redundancy that could be solved, maybe putting more ids on elements, maybe through SASS and inheritance but hey, felt too lazy to do either one of those, so here you have two .css files with some redundant lines. Sorry about that, maybe some day I'll be back on this project, fix it and edit this readme
