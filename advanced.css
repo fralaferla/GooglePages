@@ -46,6 +46,7 @@ a:hover{
 .grid{
   display:grid;
   grid-template-columns: 1fr 2.5fr 1fr;
+  gap: 15px;
 }
 .grid input{
   height: 20px;
